@@ -65,8 +65,9 @@ for(i in clus)
 	for(j in 1:length(Vert_Cl))
 	{   
         path=short_Path$vpath[[j]]
-		if(length(path)>0)
+		if(length(path)>1)
 		{   
+			print(length(path))
 			rand_edge=ceiling(runif(sum_dup)*(length(path)-1))
 			g = runif(sum_dup)
 			P_i=P_set[Vert_Cl[path[rand_edge]],]

@@ -11,7 +11,7 @@ function(X,target,K=5,dup_size=0)
     sizeP=nrow(P_set) #The number of positive instances
 	sizeN=nrow(N_set) #The number of negative instances
     knear=knearest(P_set,P_set,K)
-	sum_dup = n_dup_max(sizeP+sizeN,sizeP,sizeN,dup_size=0)
+	sum_dup = n_dup_max(sizeP+sizeN,sizeP,sizeN,dup_size)
 	syn_dat=NULL
     for(i in 1:sizeP)
 	 {       if(is.matrix(knear))
