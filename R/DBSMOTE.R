@@ -98,6 +98,5 @@ colnames(Outcast_df)=c(colnames(X),"class")
 D_result = list(data = NewD, syn_data = syn_dat, orig_N = N_set, orig_P = P_set, K = NULL, K_all = NULL, dup_size = sum_dup, outcast = Outcast_df, eps=eps, method = "DBSMOTE")
 class(D_result) = "gen_data"		
 print("DBSMOTE is Done")
-detach()
 return(D_result)
 }
