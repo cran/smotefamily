@@ -21,7 +21,6 @@ ADAS=function(X,target,K=5){
   for(i in 1:sizeP)
   {    
     if(as.numeric(num_syn_i[i])>0) {  
-      print(i)
       pair_idx = knear_P[i,ceiling(runif(num_syn_i[i])*K)]
       g = runif(num_syn_i[i])
       P_i = matrix(unlist(P_set[i,]),num_syn_i[i],ncD,byrow=TRUE)
