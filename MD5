@@ -1,4 +1,4 @@
-fc9fafc5fba5586fac773ecdc4f658d0 *DESCRIPTION
+68057b067e7056d63dfc53847c605909 *DESCRIPTION
 d51ffc297f1ffebc70973fe4debe852f *NAMESPACE
 1d022c4ed205cf3ef3e7d562f8622292 *R/ANS.R
 713b4c9ca6c2ebaf34acc53b80241e4f *R/BLSMOTE.R
@@ -9,7 +9,7 @@ d51ffc297f1ffebc70973fe4debe852f *NAMESPACE
 463dbd20a92a2ff8224208cbd3d70634 *R/adas.r
 129ca32353b90f159acba5e4c2bac2cd *R/gap.R
 1b6aa4c30d1d411dda14b427140fda28 *R/kncount.R
-95c71635075e111ecb664a2505fbae9d *R/knearest.R
+ebdd3ffef50401cc3a8beac985098f41 *R/knearest.R
 dd9cd425779a485d7adfb5a0ab02d5da *R/n_dup_max.R
 495dfa8cfa68b13f4a2e315a2206a7b3 *R/sample_generator.R
 84c931eb05e6fce4adeb0f4ec36b9b7a *man/ANS.Rd
