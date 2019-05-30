@@ -13,7 +13,7 @@ ANS(X, target, dupSize = 0)
 
 \arguments{
   \item{X}{
-	A data frame or matrix of numeric-attributed dataset 
+	A data frame or matrix of numeric-attributed dataset
 }
   \item{target}{
 	A vector of a target class attribute corresponding to a dataset X.
@@ -21,7 +21,7 @@ ANS(X, target, dupSize = 0)
   \item{dupSize}{
 	A number of vector representing the desired times of synthetic minority instances over the original number of majority instances, 0 for balanced dataset.
 }
-  
+
 }
 
 \value{
@@ -54,5 +54,5 @@ ANS(X, target, dupSize = 0)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ manip }% use one of  RShowDoc("KEYWORDS")
+\keyword{ methods	 }% __ONLY ONE__ keyword per line

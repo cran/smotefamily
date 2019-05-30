@@ -13,7 +13,7 @@ SMOTE(X, target, K = 5, dup_size = 0)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{X}{
-	A data frame or matrix of numeric-attributed dataset 
+	A data frame or matrix of numeric-attributed dataset
 }
   \item{target}{
 	A vector of a target class attribute corresponding to a dataset X.
@@ -24,7 +24,7 @@ SMOTE(X, target, K = 5, dup_size = 0)
   \item{dup_size}{
 	The number or vector representing the desired times of synthetic minority instances over the original number of majority instances
 }
-  
+
 }
 
 \value{
@@ -54,5 +54,5 @@ SMOTE(X, target, K = 5, dup_size = 0)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ manip }% use one of  RShowDoc("KEYWORDS")
+\keyword{ methods	 }% __ONLY ONE__ keyword per line

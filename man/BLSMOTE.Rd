@@ -5,7 +5,7 @@
 	Borderline-SMOTE
 }
 \description{
-	Generate synthetic positive instances using Borderline-SMOTE algorithm. The number of majority neighbor of each minority instance is used to divide minority instances into 3 groups; SAFE/DANGER/NOISE, only the DANGER are used to generate synthetic instances. 
+	Generate synthetic positive instances using Borderline-SMOTE algorithm. The number of majority neighbor of each minority instance is used to divide minority instances into 3 groups; SAFE/DANGER/NOISE, only the DANGER are used to generate synthetic instances.
 }
 \usage{
 BLSMOTE(X,target,K=5,C=5,dupSize=0,method =c("type1","type2"))
@@ -13,7 +13,7 @@ BLSMOTE(X,target,K=5,C=5,dupSize=0,method =c("type1","type2"))
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{X}{
-	A data frame or matrix of numeric-attributed dataset 
+	A data frame or matrix of numeric-attributed dataset
 }
   \item{target}{
 	A vector of a target class attribute corresponding to a dataset X.
@@ -22,7 +22,7 @@ BLSMOTE(X,target,K=5,C=5,dupSize=0,method =c("type1","type2"))
 	The number of nearest neighbors during sampling process
 }
   \item{C}{
-	The number of nearest neighbors during calculating safe-level process 
+	The number of nearest neighbors during calculating safe-level process
 }
   \item{dupSize}{
 	The number or vector representing the desired times of synthetic minority instances over the original number of majority instances, 0 for duplicating until balanced
@@ -59,5 +59,5 @@ BLSMOTE(X,target,K=5,C=5,dupSize=0,method =c("type1","type2"))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ manip }% use one of  RShowDoc("KEYWORDS")
+\keyword{ methods	 }% __ONLY ONE__ keyword per line

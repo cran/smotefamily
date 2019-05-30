@@ -34,12 +34,9 @@ gap(sl_p = 1, sl_n = 1)
 
 
 \examples{
-  
+
 	r_num = gap()
-	r_num_2 = gap(sl_p = 4, sl_n = 2)	
-  
+	r_num_2 = gap(sl_p = 4, sl_n = 2)
+
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+

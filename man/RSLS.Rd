@@ -5,7 +5,7 @@
 	Relocating Safe-level SMOTE
 }
 \description{
-	Generate synthetic positive instances using Relocating Safe-level SMOTE algorithm. Using the parameter "Safe-Level" to determine the possible location and relocating synthetic instances if there is too close to majority instances. 
+	Generate synthetic positive instances using Relocating Safe-level SMOTE algorithm. Using the parameter "Safe-Level" to determine the possible location and relocating synthetic instances if there is too close to majority instances.
 }
 \usage{
 RSLS(X, target, K = 5, C = 5, dupSize = 0)
@@ -13,7 +13,7 @@ RSLS(X, target, K = 5, C = 5, dupSize = 0)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{X}{
-	A data frame or matrix of numeric-attributed dataset 
+	A data frame or matrix of numeric-attributed dataset
 }
   \item{target}{
 	A vector of a target class attribute corresponding to a dataset X.
@@ -22,12 +22,12 @@ RSLS(X, target, K = 5, C = 5, dupSize = 0)
 	The number of nearest neighbors during sampling process
 }
   \item{C}{
-	The number of nearest neighbors during calculating safe-level process 
+	The number of nearest neighbors during calculating safe-level process
 }
   \item{dupSize}{
 	The number or vector representing the desired times of synthetic minority instances over the original number of majority instances
 }
- 
+
 }
 
 \value{
@@ -57,3 +57,6 @@ RSLS(X, target, K = 5, C = 5, dupSize = 0)
 
 
 }
+
+\keyword{ manip }% use one of  RShowDoc("KEYWORDS")
+\keyword{ methods	 }% __ONLY ONE__ keyword per line

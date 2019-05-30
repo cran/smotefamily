@@ -8,11 +8,11 @@
 	Generate synthetic positive instances using ADASYN algorithm. The number of majority neighbors of each minority instance determines the number of synthetic instances generated from the minority instance.
 }
 \usage{
-ADAS(X,target,K=5)  
+ADAS(X,target,K=5)
 }
 \arguments{
   \item{X}{
-	A data frame or matrix of numeric-attributed dataset 
+	A data frame or matrix of numeric-attributed dataset
 }
   \item{target}{
 	A vector of a target class attribute corresponding to a dataset X.
@@ -49,6 +49,6 @@ genData_2 = ADAS(data_example[,-3],data_example[,3],K=7)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ manip }% use one of  RShowDoc("KEYWORDS")
+\keyword{ methods	 }% __ONLY ONE__ keyword per line
 

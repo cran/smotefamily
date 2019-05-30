@@ -13,10 +13,10 @@ DBSMOTE(X, target, dupSize = 0, MinPts = NULL, eps = NULL)
 
 \arguments{
   \item{X}{
-	A data frame or matrix of numeric-attributed dataset 
+	A data frame or matrix of numeric-attributed dataset
 }
   \item{target}{
-	A vector of a target class attribute 
+	A vector of a target class attribute
 }
   \item{dupSize}{
 	A number of vector representing the desired times of synthetic minority instances over the original number of majority instances
@@ -56,4 +56,8 @@ Bunkhumpornpat, C., Sinapiromsaran, K. and Lursinsap, C. 2012. DBSMOTE: Density-
 data_example = sample_generator(5000,ratio = 0.90)
 genData = DBSMOTE(data_example[,-3],data_example[,3])
 }
+
+
+\keyword{ manip }% use one of  RShowDoc("KEYWORDS")
+\keyword{ methods	 }% __ONLY ONE__ keyword per line
 

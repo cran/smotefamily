@@ -3,7 +3,7 @@
 
 \title{
    The function to find n_clust nearest neighbors of each instance, always removing the index of that instance if it is reported.
-} 
+}
 \description{
    The function will find n_clust nearest neighbors of each instance using Fast nearest neighbors (through KD-tree method) but will correct the result if it reports the index of that instance as its neighbors.
 }
@@ -23,10 +23,10 @@ knearest(D, P, n_clust)
 }
 }
 \details{
-	This function will perform K-nearest neighbor of instances in P on instances in P based on FNN. Then, it will verify if one of neighbors of each instance is itself then removes if it is. 
+	This function will perform K-nearest neighbor of instances in P on instances in P based on FNN. Then, it will verify if one of neighbors of each instance is itself then removes if it is.
 }
 \value{
-	The index matrix of K nearest neighbour of each instance 
+	The index matrix of K nearest neighbour of each instance
 }
 
 \author{
@@ -44,5 +44,4 @@ knearest(D, P, n_clust)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
-\keyword{ ~kwd1 }% use one of  RShowDoc("KEYWORDS")
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+
